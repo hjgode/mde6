@@ -220,9 +220,10 @@ use the following to either use CK75 Scankey fix or WM_SCANDATA handling with
 a background thread in BarcodeScanner.cpp
 */
 #define USE_SCANKEY_ENABLED
+#undef USE_SCANKEY_ENABLED
 
 #ifdef USE_SCANKEY_ENABLED
-	#pragma message ("stdafx.h: USE_SCANKEY_ENABLED is defined\n");
+#pragma message ("stdafx.h: USE_SCANKEY_ENABLED is defined")
 #else
-	#pragma message ("stdafx.h: USE_SCANKEY_ENABLED is not defined\n");
+#pragma message ("stdafx.h: USE_SCANKEY_ENABLED is not defined")
 #endif

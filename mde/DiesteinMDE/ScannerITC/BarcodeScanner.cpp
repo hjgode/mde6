@@ -247,10 +247,10 @@ BOOL CBarcodeScanner::Init(CString& errMsg)
 
 	//create background thread
 #ifdef USE_SCANKEY_ENABLED
-	#pragma message ("### CBarcodeScanner::Init no scanning background thread created as USE_SCANKEY_ENABLED is defined\n");
+	#pragma message ("### CBarcodeScanner::Init no scanning background thread created as USE_SCANKEY_ENABLED is defined")
 	DEBUGMSG(1,(L"### CBarcodeScanner::Init no scanning background thread created as USE_SCANKEY_ENABLED is defined\n"));
 #else
-	#pragma message ("### CBarcodeScanner::Init will use scanning background thread as USE_SCANKEY_ENABLED is not defined\n");
+	#pragma message ("### CBarcodeScanner::Init will use scanning background thread as USE_SCANKEY_ENABLED is not defined")
 	DEBUGMSG(1,(L"### CreateThread() m_barcodeReader=%i\n", m_BarcodeReader));
 	hThread=::CreateThread(NULL, 0, &scannerThread, (LPVOID)m_BarcodeReader, 0, &hThreadId);
 #endif
@@ -303,7 +303,8 @@ CString CBarcodeScanner::WaitForDecode(int msDelay, CString& errMsg)
 
 #ifndef USE_SCANKEY_ENABLED
 	DEBUGMSG(1, (L"WaitForDecode disabled as USE_SCANKEY_ENABLED is not defined\n"));
-	return CString.Empty;
+	CString cStr;
+	return cStr;
 #endif
 
 	if(mySingleMutex){
