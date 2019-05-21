@@ -112,7 +112,7 @@ BOOL CBenutzer::PreTranslateMessage(MSG* pMsg)
 	//if(GetAsyncKeyState(SCAN_KEY) < 0)
 	if(pMsg->message==WM_KEYDOWN)
 		if(pMsg->wParam==SCAN_KEY)
-			barCode = m_pScanner->WaitForDecode(2000,errMsg);
+		{ barCode = m_pScanner->WaitForDecode(2000,errMsg); return TRUE; } 
 	if(pMsg->message==WM_SCANDATA){
 		TCHAR data[2048];
 		wsprintf(data,L"%s",pMsg->wParam);

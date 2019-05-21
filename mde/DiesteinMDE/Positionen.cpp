@@ -1065,7 +1065,7 @@ m_nSetHinzu = 0;
 	CString barCode;// = m_pScanner->WaitForDecode(2000,errMsg);
 	if(pMsg->message==WM_KEYDOWN)
 		if(pMsg->wParam==SCAN_KEY)
-			barCode = m_pScanner->WaitForDecode(2000,errMsg);
+			{ barCode = m_pScanner->WaitForDecode(2000,errMsg); return TRUE; }
 	if(pMsg->message==WM_SCANDATA){
 		TCHAR data[2048];
 		wsprintf(data,L"%s",pMsg->wParam);
