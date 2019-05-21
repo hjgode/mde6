@@ -1,0 +1,34 @@
+BLZ
+Bruch Bad Langensalza
+KIRCHEIM1
+Bruch Kirchheim1
+LAGER01
+Lager Untereisenheim
+LAGER02
+Lager Obereisenheim
+LAGER03
+Lager Volkach
+LAGER04
+Lager Bergtheim
+LAGER05
+Lager Wipfeld
+LAGER06
+Lager Kürnach
+LAGER07
+Lager Astheim
+LAGER08
+Lager Schallfeld
+LAGER09
+Lager Lülsfeld
+P1
+Produktionsware 1
+P2
+Produktionsware 2
+P3
+Produktionsware 3
+W1
+Handelsware 1
+W2
+Handelsware 2
+W3
+Handelsware 3

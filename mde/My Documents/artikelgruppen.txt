@@ -1,0 +1,62 @@
+1B
+Rohblöcke
+202B
+Rohblöcke ganz
+203B
+Rohblöcke halb
+2R
+Rohplatte
+3
+Schnittlinge
+4
+Fensterbänke
+5
+Bodenplatten / Fliesen
+7
+Stufen
+8
+Wandverkleidung innen
+9
+Fassaden
+10
+Küchenarbeitspl./Waschtische
+11
+Grabmale
+12
+Inschriften
+13
+Grabmal-Zubehör
+15
+Denkmal
+20
+Sockel
+25
+Einfassung
+50
+Verlegematerial
+55
+Hilfsstoffe
+60
+Sonstiges
+65
+Sägestücke
+70
+Verpackung
+71
+Versand
+75
+Ornamente 
+80
+Rohblöcke (Fremd)
+85
+Betonsteinartikel
+90
+Pflasterartikel
+95
+Fliesen 1
+100
+Fliesen 2 (ohne Lieferant)
+105
+Zulagen
+110
+Schotter

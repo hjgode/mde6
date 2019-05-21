@@ -1,0 +1,359 @@
+D     ;Aktuell eingestellte Sprache (1. Zeile, 2. Zeile evtl. Defaultsprache)
+
+Sprachdatei für DiesteinMDE
+---------------------------
+D  Diestein MDE
+US StonePro MDR
+F  Diestein MDE
+ 
+D  Mobile Daten Erfassung
+US Mobile Data Registration
+F  Pda
+
+D  Info
+US Info
+F  Info
+
+D  Verkauf
+US Sale
+F  Vente
+
+D  Lieferung
+US Delivery
+F  Livraison
+
+D  Reservierung
+US Reservation
+F  Reservation
+
+D  Produktion
+US Production
+F  Production
+
+D  Lager ändern
+US Warehouse Transf.
+F  Déplacement
+
+D  Einkauf
+US Receiving
+F  Achat
+
+D  Zugang
+US Incoming
+F  Entrée
+
+D  Oberfläche/Fehler
+US Surface/Defects
+F  Surface/défault
+
+D  Inventur
+US Physical Inventory
+F  Inventaire
+
+D  Container
+F  Container
+
+D  Preisinfo
+US Price Info
+F  Info sur prix
+
+D  Steinnummer
+US Tag-Number
+F  N°pierre
+
+D  Menge
+US Amount
+F  Quantité
+
+D  Verfügbar
+US Available
+F  Disponible
+
+D  Artikel
+US Product
+F  Article
+
+D  Material
+US Material
+F  Matériel
+
+D  Oberfläche
+US Surface
+F  Surface
+
+D  Lagerort
+US Bin
+F  Emplacement
+
+D  Lieferant
+US Supplier
+F  Fournisseur
+
+D  Hinweis
+US Info
+F  Info
+
+D  Länge
+US Length
+F  Longueur
+
+D  Breite
+US Width
+F  Largeur
+
+D  Dicke
+US Thickn.
+F  Epaisseur
+
+D  Fehlecke
+US Defect
+F  coin def.
+
+D  Fehler
+US Defect
+F  Défaut
+
+D  Steinsätze
+US Sets of stones
+F  Lot de pierres
+
+D  Satznummer
+US Set-Number
+F  Numéro lot
+
+D  Set anzeigen
+US Show set
+F  Affiché lot
+
+D  Art.-Nr
+US Prod.-No
+F  N°article
+
+D  Sätze
+US Sets
+F  Lots
+
+D  Nein
+US No
+F  Non
+
+D  Ja
+US Yes
+F  Oui
+
+D  Zurück
+US Back
+F  Retour
+
+D  Löschen
+US Erase
+F  Supprimer
+
+D  Hinzu
+US Add
+F  Rajouté
+
+D  Bearbeiten
+US Edit
+F  Modifier
+
+D  Anzeigen
+US Show
+F  Afficher
+
+D  Aufträge
+US Orders
+F  Commande
+
+D  Positionen
+US Positions
+F  Positions
+
+D  Auftrag \ hinzufügen?
+US Add order \ ?
+F  Rajouté commande \ ?
+
+D  Oberfl.
+US Surface
+F  Surface
+
+D  Lager
+US Bin
+F  Dépot
+
+D  Hinzufügen
+US Add
+F  Rajouter
+
+D  Rück
+US Back
+F  Retour
+
+D  Auftrag
+US Order
+F  Commande
+
+D  Speichere
+US Saving
+F  Enregistré
+
+D  Bestellnummer
+US PO-No.
+F  N°commande
+
+D  Position
+US Position
+F  Position
+
+D  Mod
+US Mod
+F  Mod
+
+D  Ende
+US End
+F  Fin
+
+D  Abbrechen
+US Cancel
+F  Annulé
+
+D  Bestell-Nr.
+US PO-No.
+F  N°commande
+
+D  Pos.
+US Pos.
+F  Pos.
+
+D  Stein-Nr.
+US Tag-No.
+F  N°pierre
+
+D  Liefersch.
+US Del. note
+F  Bon de livraison
+
+D  Dat.
+US Date
+D  Date
+
+D  Maße(L/B/D)
+US Val.(L/W/T)
+F  Mésure (L/l/ep.)
+
+D  Preis
+US Price
+F  Prix
+
+D  Ok
+F  Ok
+
+D  Materialart
+US Material
+F  Type mat.
+
+D  Materialgruppe
+US Materiel Group
+F  Groupe matériel
+
+D  Artikelgruppe
+US Product Group
+F  Groupe article
+
+D  Text
+F  Texte
+
+D  Lager alt
+US Bin old
+F  Anc. dépot
+
+D  Lager neu
+US Bin new
+F  Nouv. dépot
+
+D  Oberfläche/Fehler ändern
+US Change Surface/Defect
+F  Surface/defect
+
+D  Alt
+US Old
+F  Ancien
+
+D  Neu
+US New
+F  Nouveau
+
+D  Auto aus
+US Auto off
+F  Auto off
+
+D  Buchungen
+US Entries
+F  Entrée
+
+D  Buchungen (Oberfl./Fehler ändern)
+US Entries (Change Surface/Defect)
+F  Entrée (surface/defect)
+
+D  Alt/Neu
+US Old/New
+F  Anc/nouv
+
+D  Steinnummer *
+US Tag-No. *
+F  N°pierre *
+
+D  Eigenschaften definieren!
+US Define properties!
+F  Définition des proprietés
+
+D  Container-Eingang
+US Container-Incoming
+F  Entrée-Conatainer
+
+D  Best.-Nr.
+US Order-No.
+F  N°commande
+
+D  LxBxD
+US LxWxT
+F  L*l*h
+
+D  SET
+F  SET
+
+D  Soll die aktuelle Steinnummer hinzugefügt werden?
+
+D  Fehllänge
+
+D  Fehlbreite
+
+D  M.(verfügbar)
+
+D  Bes.-Nr./Pos.
+
+D  Buchungs-Nr.
+
+D  Prod./Verk./A.
+
+D  Datum/Zeit/E
+
+D  Kunde
+
+D  Teilpos
+
+D  Typkennung
+
+D  Herstellart
+
+D  Buchungen (Bestelleingang)
+
+D  Soll eine Rückbuchung durchgeführt werden?
+
+D  Steinnummer nicht im Lagerbestand!
+
+D  Vorher
+
+D  Nächster
+
+D  Wollen Sie den Auftrag wirklich löschen?

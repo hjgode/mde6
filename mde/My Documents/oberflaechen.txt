@@ -1,0 +1,56 @@
+G 56
+allseits poliert
+M 56
+allseits poliert
+G 10
+diamantgesägt
+M 10
+diamantgesägt
+QU 10
+diamantgesägt
+K 10
+diamantgesägt
+G 11
+diamantgesägt 2
+BET 11
+diamantgesägt 2
+K 11
+diamantgesägt 2
+M 11
+diamantgesägt 2
+QU 11
+diamantgesägt 2
+S 11
+diamantgesägt 2
+G 12
+diamantgesägt 3
+G 55
+dreiseitig poliert
+M 55
+dreiseitig poliert
+G 40
+fein geschliffen
+M 40
+fein geschliffen
+G 60
+geflammt
+G 30
+geschliffen C 220
+M 30
+geschliffen C 220
+G 70
+gestockt
+G 20
+gesägt und abgesäuert
+G 50
+poliert
+M 50
+poliert
+G 14
+spaltrauh
+M 14
+spaltrauh
+G 15
+sägerauh
+M 15
+sägerauh

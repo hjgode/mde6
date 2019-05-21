@@ -1,0 +1,37 @@
+DiesteinMDE6
+
+Portierung from 99ex to CK75 WEH
+
+The main issue is that the 99ex is using a virual key code to signal decoding start, 
+but the CK75 instead does not fire any virtual key code and instead fires two named
+events to start decoding.
+
+There are two main options:
+
+1. Remap the center scan button on the CK75 to issue a key code and then start 
+   a decode, when the key is pressed
+
+2. Rewrite the barcode data requests to run async from the rest. Implement a custom
+   Windows message to signal a successful decode and watch for the message in the
+   PreTranslate Message pumps of the dialogs.
+   
+Solution 1 has and had the disadvantage, that the message pump may be blocked up
+to 2 seconds when the scan key is pressed.
+This can be better done with starting the blocking decode only when the scan key is
+pressed. But the UI is still blocked for the decode call.
+
+Further on, there is no easy remapping option for the blue center scan button on
+the CK75. We need to change the two event names used to start the decode and use
+another tool that will create keyboard events when the renamed events are fired by 
+the scan button. The tool used is named cn51_scankey and is configured by registry
+entries (which key to fire etc.).
+
+Solution 2 works independent from the main UI thread and will not block the UI at
+any time. If a barcode is decoded, it will be transfered with a custom message into
+the UI message pump (PreTranslateMessage).
+
+Both option can be used with the current code. Just define or undefine 
+USE_SCANKEY_ENABLED in stdafx.h. If USE_SCANKEY_ENABLED is defined, the code will
+look for the scan key and possibly block for a decode.
+If USE_SCANKEY_ENABLED is not defined, the code will use the custom window message
+WM_SCANDATA and a background thread to deliver scanned barcode data.

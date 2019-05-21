@@ -1,0 +1,12 @@
+1
+Standard
+
+2
+Privat
+
+3
+CHF-Preisliste Standard
+CHF
+4
+CHF-Preisliste Privat
+CHF

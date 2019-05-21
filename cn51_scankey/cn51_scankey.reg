@@ -1,0 +1,10 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\Software\cn51_scankey]
+"fire scan"=hex:\
+      01
+"virtual key"=hex:\
+      5B
+"DeltaLeftEvent"="DeltaLeftScan1"
+"StateLeftEvent"="StateLeftScan1"
+

@@ -1,0 +1,138 @@
+M ADR
+Adriatico
+M ABC
+Agglo Breccia Aurora
+M ARA
+Arabescato
+M AST
+Astir Marmor
+G AZBA
+Azul Bahia
+G AZIM
+Azul Imperial
+G AZPL
+Azul Platino
+G BAB
+Baltic braun
+G BAG
+Baltic grün
+G BAR
+Baltic rot
+BET 0004
+Betonwerkstein gelb 0/12
+BET 0001
+Betonwerkstein rot 0/12
+BET 0002
+Betonwerkstein schwarzweiß 0/12
+BET 0003
+Betonwerksteine blau 0/12
+M BC
+Bianco Carrara
+M BCD
+Bianco Carrara CD
+M BCG
+Bianco Carrara Gioia
+G BCS
+Bianco Sardo
+M BOT
+Botticino 
+M CIO
+Cioccolata
+S EICH
+Eichenbühler Sandstein
+E EINK
+Einkäufe
+G EPP
+Epprechtstein
+G EPPR
+Epprechtstein (EPPR)
+M ESB
+Estremoz Branco
+M ESR
+Estremoz Rosa
+G GIVE
+Giallo Venezia
+M HAD
+Hadrian E
+HI HILF
+Hilfstoffe
+G HIM
+Himalaya
+G IMP
+Impala
+G JUP
+Juparana
+M JJU
+Juramarmor Juwel
+M JNB
+Juramarmor Nußbraun
+M JRW
+Juramarmor Rahmweiß
+M JBL
+Juramarmor blau
+M JBU
+Juramarmor bunt
+M JGE
+Juramarmor gelb
+M JGB
+Juramarmor gelb gebändert
+M JGR
+Juramarmor grau
+K KRE
+Krensheimer Muschelkalk gelb
+G LLA
+Lila Alpha
+XXX XXXX
+Materialunabhängig
+K MELL
+Mellikon
+M MIK
+Mikrozement grün
+G NEAB
+Nero Assoluto Belfast
+M NMA
+Nero Marquina
+G PAR
+Paradiso
+M PRO
+Perlato Royal
+G PG1
+Preisgruppe 1
+G PG2
+Preisgruppe 2
+M PG3
+Preisgruppe 3
+QU QUAR
+Quarzit
+G RSB
+Rosa Beta
+G ROPO
+Rosa Porinho
+G RSA
+Rosa Sardo
+G ROVA
+Rosso Valencia
+M ROV
+Rosso Verona
+M SOL
+Solnhofer Marmor
+SON SONS
+Sonstiges(Ohne Material)
+M STV
+Statuario Venato
+M THA
+Thassos
+M TRA
+Trani viorito
+M TRA1
+Travertin #001
+M TRL
+Travertin Luisa gespachtelt
+M VER
+Verde Alpi
+M 4890
+Verde Aver
+G 4891
+Verde Bahia
+V VERK
+Verkäufe

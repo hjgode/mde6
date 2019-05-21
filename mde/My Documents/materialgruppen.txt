@@ -1,0 +1,22 @@
+BET
+Betonwerkstein
+E
+Einkauf
+G
+Granit
+HI
+Hilfsstoffe
+M
+Marmor
+XXX
+Materialunabhängig
+K
+Muschelkalk
+QU
+Quarzit
+S
+Sandstein
+SON
+Sonstiges(Ohne Material)
+V
+Verkauf
